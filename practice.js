@@ -354,8 +354,24 @@ of Data is to have an Array full of objects. */
 
   //Code Here
 
+  var users = [];
+
 /*Now add three user objects to your users array. Each user object should contain the
 following properties. name, email, password, username.*/
+ var user2 = {
+    name: 'Barbara Liau',
+    email: 'bj.liau@gmail.com',
+    password: 'codingIsCool',
+    username: 'codergrrrrrll'
+};
+
+var user3 = {
+    name: 'Guy One',
+    email: 'guyone@gmail.com',
+    password: 'coder',
+    username: 'coderboi'
+};
+
 
 //include this as one of the objects in your array.
 var user1 = {
@@ -363,7 +379,11 @@ var user1 = {
     email: 'tylermcginnis33@gmail.com',
     password: 'iLoveJavaScript',
     username: 'infiniateLoop'
-}
+};
+
+users.push(user1);
+users.push(user2);
+users.push(user3);
 
 //Your Code Here
 
@@ -376,6 +396,11 @@ objects until you find Tyler's account (use tylermcginnis33@gmail.com to find hi
 Once you find the particular indice he's located in, delete him from the array.*/
 
   //Code Here
+
+  for (var key in users) {
+    if (users[key].email === "tylermcginnis33@gmail.com")
+      delete users[key];
+  }
 
 //The activity we just did is very much how data works in 'the real world'.
 
