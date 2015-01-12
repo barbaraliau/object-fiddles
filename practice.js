@@ -211,10 +211,14 @@ var user = {
 
   //Code Here
 
+  user.name = "Tyler S. McGinnis";
+  user.email = "tylermcginnis@devmounta.in";
+
 //Now call the sayName method that's on the user object which will alert the users email
 
   //Code Here
 
+user.sayName();
 
 
 
