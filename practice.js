@@ -57,9 +57,12 @@ with the value being the color of your backpack. */
 
   //Code here
 
+
 //After you do the above, alert your entire backPack object.
 
   //Code here
+
+
 
 /*You probably noticed that it just alerted [object Object].
 Alerting to see the data in your Object doesn't work so well.
@@ -79,10 +82,25 @@ Instead, console.log your whole backPack object and then check out the console. 
 
   //Code Here
 
+var me = {
+  name: "Barbara",
+  age: 26,
+  height: "5'2",
+  gender: "female",
+  married: true,
+  eyeColor: "brown",
+  hairColor: "black"
+};
+
+
+
 //Now, loop through your object and alert every value. *Tyler --> 24 --> 6'0 --> Male, etc etc
 
   //Code Here
 
+for (var key in me) {
+  alert(me[key]);
+}
 
 
 
