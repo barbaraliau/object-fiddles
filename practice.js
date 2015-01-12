@@ -5,7 +5,12 @@
 
   //Code here
 
+var me = {
+  name: "Barbara",
+  age: 26
+};
 
+alert(me.name);
 
 
 //NEXT PROBLEM
@@ -17,16 +22,18 @@
 
   //Code here
 
+ 
 
 //After you've made your object, add another key named 'car' with the value being your favorite car and then another key named 'brand' with the value being your favorite brand.
 
   //Code here
 
 
+
+
 //Now change the food key in your favoriteThings object to be 'Lettuce' and change the book key in your favoriteThings object to be '50 Shades of Gray'.
 
   //Code here
-
 
 
 
