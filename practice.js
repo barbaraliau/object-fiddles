@@ -294,11 +294,24 @@ sure that it's equal to 4. */
 
   //Code Here
 
+devMountainEmployees.push(tyler);
+devMountainEmployees.push(cahlan);
+devMountainEmployees.push(ryan);
+devMountainEmployees.push(colt);
+
+
+console.log(devMountainEmployees.length);
+
 /*Now let's say Cahlan has a mental breakdown and has to take a leave of absense to 'find himself'.
 Loop through your devMountainEmployees until you find cahlan, then remove him from the array.*/
 
   //Code Here
 
+for (var key in devMountainEmployees) {
+  if (devMountainEmployees[key].name === "Cahlan") {
+    delete devMountainEmployees[key];
+  }
+}
 
 
 
