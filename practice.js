@@ -113,11 +113,22 @@ for (var key in me) {
 
   //Code Here
 
+  var album = {
+    song1: 2.39,
+    song2: 3.23,
+    song3: 4.03,
+    song4: 1.57,
+    song5: 3.23
+
+  };
+
 //Now, loop through your album object alerting every song title individually.
 
   //Code Here
 
-
+for (var key in album) {
+  alert(key);
+}
 
 
 //NEXT PROBLEM
